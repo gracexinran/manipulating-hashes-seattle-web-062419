@@ -11,6 +11,6 @@ def second_challenge
   groceries.each do |key, value|
     result.push(value)
   end
-  result.flat 
+  result.flat()
 
 end
